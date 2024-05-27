@@ -49,6 +49,7 @@ WHERE
     amount BETWEEN 5 and 14
 
 
+-- task 2.7
 SELECT
     author,
     SUM(price * amount) AS Стоимость
